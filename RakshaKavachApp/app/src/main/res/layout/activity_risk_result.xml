@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_gradient"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/textRiskLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Risk"
+        android:textColor="@color/safety_white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/riskBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Medium Risk"
+        android:textColor="@color/safety_black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textMissingPpe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/safety_white" />
+
+    <Button
+        android:id="@+id/btnVoiceAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_button_primary"
+        android:text="@string/voice_alert"
+        android:textColor="@color/safety_black"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_worker_placeholder"
+        android:contentDescription="@string/app_name"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="lottie_worker.json"
+        app:lottie_loop="true" />
+
+    <Button
+        android:id="@+id/btnReportIncident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_button_outline"
+        android:text="Report Incident"
+        android:textColor="@color/safety_white" />
+</LinearLayout>

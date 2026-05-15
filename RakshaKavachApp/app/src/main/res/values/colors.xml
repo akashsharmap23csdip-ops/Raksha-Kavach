@@ -1,0 +1,9 @@
+<resources>
+    <color name="safety_yellow">#F6D32D</color>
+    <color name="safety_orange">#F59E0B</color>
+    <color name="safety_black">#111111</color>
+    <color name="safety_white">#FFFFFF</color>
+    <color name="safety_green">#22C55E</color>
+    <color name="safety_red">#DC2626</color>
+    <color name="safety_gray">#1F2937</color>
+</resources>

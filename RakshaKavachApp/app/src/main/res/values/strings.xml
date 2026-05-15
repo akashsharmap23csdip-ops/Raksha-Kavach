@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Raksha Kavach</string>
+    <string name="tagline">Safety First</string>
+    <string name="login_title">Login</string>
+    <string name="register_title">Register</string>
+    <string name="dashboard_title">Safety Dashboard</string>
+    <string name="task_selection_title">Select Task</string>
+    <string name="ppe_check_title">PPE Checklist</string>
+    <string name="risk_result_title">Risk Result</string>
+    <string name="quiz_title">Daily Safety Quiz</string>
+    <string name="incident_title">Report Incident</string>
+    <string name="score_title">Safety Score</string>
+    <string name="voice_alert">Play Voice Alert</string>
+    <string name="emergency_call">Emergency Call</string>
+</resources>

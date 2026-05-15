@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textTaskName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task"
+            android:textColor="@color/safety_white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textRequiredPpe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/safety_orange" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <CheckBox
+                android:id="@+id/cbHelmet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Helmet"
+                android:textColor="@color/safety_white" />
+
+            <CheckBox
+                android:id="@+id/cbGloves"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gloves"
+                android:textColor="@color/safety_white" />
+
+            <CheckBox
+                android:id="@+id/cbBoots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Boots"
+                android:textColor="@color/safety_white" />
+
+            <CheckBox
+                android:id="@+id/cbGoggles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goggles"
+                android:textColor="@color/safety_white" />
+
+            <CheckBox
+                android:id="@+id/cbFaceShield"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Face Shield"
+                android:textColor="@color/safety_white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCheckRisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_button_primary"
+            android:text="Check Risk"
+            android:textColor="@color/safety_black"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

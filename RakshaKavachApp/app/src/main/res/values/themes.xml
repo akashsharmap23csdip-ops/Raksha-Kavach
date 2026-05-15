@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.RakshaKavach" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/safety_yellow</item>
+        <item name="colorPrimaryVariant">@color/safety_orange</item>
+        <item name="colorOnPrimary">@color/safety_black</item>
+        <item name="colorSecondary">@color/safety_orange</item>
+        <item name="colorOnSecondary">@color/safety_black</item>
+        <item name="android:statusBarColor">@color/safety_black</item>
+        <item name="android:navigationBarColor">@color/safety_black</item>
+        <item name="android:windowBackground">@color/safety_black</item>
+    </style>
+</resources>

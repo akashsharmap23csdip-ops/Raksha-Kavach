@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard_title"
+            android:textColor="@color/safety_white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/ic_worker_placeholder"
+            android:contentDescription="@string/app_name"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="lottie_worker.json"
+            app:lottie_loop="true" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:columnCount="2">
+
+            <Button
+                android:id="@+id/btnStartSafety"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button_primary"
+                android:text="Start Safety Check"
+                android:textColor="@color/safety_black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnDailyQuiz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button_primary"
+                android:text="Daily Quiz"
+                android:textColor="@color/safety_black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnReportIncident"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button_outline"
+                android:text="Report Incident"
+                android:textColor="@color/safety_white" />
+
+            <Button
+                android:id="@+id/btnSafetyScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/bg_button_outline"
+                android:text="Safety Score"
+                android:textColor="@color/safety_white" />
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnEmergencyCall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_button_danger"
+            android:text="@string/emergency_call"
+            android:textColor="@color/safety_white"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
