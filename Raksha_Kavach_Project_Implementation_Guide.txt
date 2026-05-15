@@ -1,0 +1,239 @@
+
+RAKSHA-KAVACH PROJECT IMPLEMENTATION GUIDE
+Project No: 42
+
+Project Title:
+Android App Development using GenAI – Raksha-Kavach (Healthcare / Worker Safety)
+
+==================================================
+1. PROJECT OBJECTIVE
+==================================================
+
+Build an Android application for construction and factory workers
+to improve workplace safety using:
+- PPE (Safety Gear) Checklist
+- Risk Level Detection
+- Safety Awareness
+- Incident Reporting
+
+==================================================
+2. MAIN FEATURES TO IMPLEMENT
+==================================================
+
+A. Splash Screen
+- App Logo
+- App Name
+
+B. Login / Register
+- Firebase Authentication
+- Email & Password Login
+
+C. Dashboard
+Buttons:
+- Start Safety Check
+- Daily Quiz
+- Report Incident
+- Safety Score
+
+D. Task Selection Module
+Tasks Examples:
+- Welding
+- Electrical Work
+- Height Work
+- Digging Trench
+- Chemical Handling
+
+E. PPE Safety Checklist
+Show required safety equipment:
+- Helmet
+- Gloves
+- Boots
+- Goggles
+- Face Shield
+
+Options:
+- Wearing
+- Not Wearing
+
+F. Risk Meter
+Show danger level:
+- Green = Safe
+- Yellow = Medium Risk
+- Red = High Risk
+
+G. Worker Avatar / Safety Illustration
+- Use PNG images or Lottie animations
+- Show worker with and without safety gear
+
+H. Daily Safety Quiz
+Simple MCQ Questions
+
+Example:
+Which gear is compulsory for welding?
+
+I. Incident / Near Miss Report
+Fields:
+- Incident Title
+- Description
+- Date
+- Optional Image Upload
+
+J. Safety Score
+- Increase score for safe days
+- Reduce score for incidents
+
+==================================================
+3. TECHNOLOGIES TO USE
+==================================================
+
+Development Tool:
+- Android Studio
+
+Programming Language:
+- Java or Kotlin
+
+Database:
+- Firebase Firestore / Realtime Database
+
+Authentication:
+- Firebase Authentication
+
+UI Design:
+- XML Layouts
+
+Animations:
+- Lottie Animation
+
+==================================================
+4. DATABASE COLLECTIONS / TABLES
+==================================================
+
+Users
+- Name
+- Email
+- Safety Score
+
+Tasks
+- Task Name
+- Required PPE
+- Risk Level
+
+Incidents
+- Incident Title
+- Description
+- Date
+
+Quiz
+- Question
+- Options
+- Correct Answer
+
+==================================================
+5. UI DESIGN REQUIREMENTS
+==================================================
+
+Theme Colors:
+- Yellow
+- Black
+- Orange
+- White Text
+
+Design Style:
+- Industrial Safety Theme
+- High Visibility UI
+
+==================================================
+6. APP FLOW
+==================================================
+
+Splash Screen
+    ↓
+Login/Register
+    ↓
+Dashboard
+    ↓
+Task Selection
+    ↓
+PPE Checklist
+    ↓
+Risk Result
+    ↓
+Incident Reporting
+    ↓
+Safety Score & History
+
+==================================================
+7. MINIMUM FEATURES REQUIRED
+==================================================
+
+IMPORTANT FEATURES:
+- Login System
+- Task Selection
+- PPE Checklist
+- Risk Meter
+- Incident Reporting
+- Firebase Integration
+- Good UI Design
+
+==================================================
+8. OPTIONAL EXTRA FEATURES
+==================================================
+
+- Voice Alerts
+- Text-to-Speech Safety Warnings
+- Emergency Contact Button
+- Camera Image Upload
+- Safety Tips API
+
+==================================================
+9. FINAL DELIVERABLES
+==================================================
+
+1. Working Android App
+2. PPT Presentation
+3. Project Report
+4. APK File
+5. Demo Screenshots
+
+==================================================
+10. PROJECT COMPLETION PLAN
+==================================================
+
+PHASE 1:
+- UI Design
+
+PHASE 2:
+- Firebase Setup
+
+PHASE 3:
+- Task & PPE Logic
+
+PHASE 4:
+- Risk Meter Implementation
+
+PHASE 5:
+- Incident Reporting
+
+PHASE 6:
+- Testing & PPT Preparation
+
+==================================================
+11. IMPORTANT NOTE
+==================================================
+
+Advanced AI is NOT required.
+Simple rule-based logic is enough for the internship project.
+
+Example:
+If task = Welding
+Then required PPE:
+- Helmet
+- Gloves
+- Goggles
+
+If safety gear missing:
+Show High Risk Warning
+
+==================================================
+END OF FILE
+==================================================
